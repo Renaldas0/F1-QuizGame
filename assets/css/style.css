@@ -1,0 +1,9 @@
+body {
+    background-color: red;
+    background-image: url(../images/f1-image.jpg);
+    color: red;
+    background-size: cover;
+    height: 100vh;
+    padding: 0%;
+}
+
