@@ -130,10 +130,16 @@ h2 {
     margin-left: 30px;
     padding: 2px;
     font-size: 130%;
+    
 }
 
 #navigation {
     text-align: right;
     margin:2%
-    
+}
+
+.nav-btn {
+    font-size: 80%;
+    width: 10%;
+    height: 20px;
 }
