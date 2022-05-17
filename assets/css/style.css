@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora:ital@1&family=Oswald:wght@300&display=swap');
 
+*, *::before, *::after{
+    box-sizing: border-box;
+    font-family:KYanone Kaffeesatz, sans-serif ;
+}
 body {
-    background-color: red;
+    background-color:white;
     background-image: url(../images/f1-image.jpg);
-    color: red;
-    background-size: cover;
     height: 100vh;
-    padding: 0%;
+    background-size: cover;
+
 }
 
 h1 {
-    font-family: KYanone Kaffeesatz, sans-serif;
     text-align: center;
     font-size: 350%;
     font-weight: 900;
@@ -25,10 +27,11 @@ a {
 /* Style for quiz box below header*/
 
 #index-box {
-    background-color: rgb(180, 180, 180, 0.7);
     width: 80%;
     height: 400px;
-    margin: auto;
+    color:black;
+    margin: 0 auto;
+    background-color: rgb(180, 180, 180,0.7);
     border: solid black 2px;
     border-radius: 10px;
     
@@ -38,4 +41,24 @@ h2 {
     text-align: center;
     font-size: 300%;
     margin: 5px;
+}
+
+#start-button {
+    font-family:KYanone Kaffeesatz, sans-serif ;
+    display: block;
+    margin: 20px auto;
+    padding:2%;
+    font-size: 200%;
+    height: 30%;
+    width: 40%;
+    background-color: rgb(230, 230, 230);
+    border:solid black 1px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+#start-button:hover {
+    background-color: red;
+    color: white;
 }
