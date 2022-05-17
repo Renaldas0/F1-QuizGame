@@ -44,7 +44,6 @@ h2 {
 }
 
 #start-button {
-    font-family:KYanone Kaffeesatz, sans-serif ;
     display: block;
     margin: 20px auto;
     padding:2%;
@@ -61,4 +60,71 @@ h2 {
 #start-button:hover {
     background-color: red;
     color: white;
+}
+
+#quiz-container {
+    height: 500px;
+    width: 80%;
+    background-color: rgb(180, 180, 180,0.7);
+    margin: 0 auto;
+    border-radius: 10px 10px;
+}
+
+#question {
+    height: 35%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#answer-buttons {
+    height: 200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    font-size: 145%;
+    font-weight: 300;
+    width: 40%;
+    height: 30%;
+    margin: 1%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    
+}
+
+.btn:hover {
+    border: 0.5px solid red;
+}
+
+.btn-submit {
+    font-size: 120%;
+    font-weight: 300;
+    width: 25%;
+    height: 20%;
+    margin-left: 37%;
+    border: 0.5px solid black; 
+    border-radius: 10px;
+    text-align: center;
+}
+
+.btn-submit:hover {
+    border: 2px solid green;
+}
+
+.score-area {
+    width: 80%;
+    height:100px;
+}
+
+.scores{
+    display: inline;
+    margin: 20px 0 20px 20px;
+    float: right;
+    
 }

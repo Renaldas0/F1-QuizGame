@@ -14,23 +14,26 @@
     <h1><a href="index.html">F1-Quiz</a></h1>
 
     <!--Container that holds the game-->
-    <div class="container">
+    <div id="quiz-container">
 
         <!--Area that displays the question-->
-    <div id="question-area" class="hide">
-        <div id="question">Question</div>
+        <div id="question">
+            <h2>Questions here</h2>
+        </div>
 
         <!--Answer Buttons-->
-        <div id="answer-buttons" class="btn-grid">
+        <div id="answer-buttons">
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
             <button class="btn">Answer 1</button>
         </div>
+
+        <!-- Submit Button-->
+        <button class="btn-submit" data-type="submit">Submit Answer</button>
     </div>
 
-    <!-- Submit Button-->
-        <button class="btn btn-submit" data-type="submit">Submit Answer</button>
+    
     
     <!--Score tracker, code inspiration from Love Maths project-->
         <div class="score-area">
