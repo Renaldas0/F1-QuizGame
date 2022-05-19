@@ -60,6 +60,46 @@ let questions = [
         correctAnswer: 'Mercedes'
     },
     {
-
+        question:'7. How many points are awarded to the race winner of each Grand Prix?',
+        answers: {
+            A: '27',
+            B: '25',
+            C: '24',
+            D: '26'
+        },
+        correctAnswer: '25'
+    },
+    {
+        question:'8. In 2016, who became F1 World Champion and then announced his retirement from the sport five days later?',
+        answers: {
+            A: 'Kimi Raikkonen',
+            B: 'Nico Rosberg',
+            C: 'Jenson Button',
+            D: 'Fernando Alonso'
+        },
+        correctAnswer: 'Nico Rosberg'
+    },
+    {
+        question:'9. Who was the first ever British Formula One World Champion?',
+        answers: {
+            A: 'Nigel Manson',
+            B: 'Jim Clark',
+            C: 'Lewis Hamilton',
+            D: 'Mike Hawthorne'
+        },
+        correctAnswer: 'Mike Hawthorne'
+    },
+    {
+        question:'10. Which car team were Constructors Champions in 2017?',
+        answers: {
+            A: 'Ferrari',
+            B: 'RedBull',
+            C: 'Renault',
+            D: 'Mercedes'
+        },
+        correctAnswer: 'Mercedes'
     }
-]
+];
+
+let quizContainer = document.getElementById('quiz-container');
+let questionH2 = document.getElementById('')
