@@ -102,4 +102,4 @@ let questions = [
 ];
 
 let quizContainer = document.getElementById('quiz-container');
-let questionH2 = document.getElementById('')
+let questionH2 = document.getElementById('');
