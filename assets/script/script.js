@@ -101,5 +101,31 @@ let questions = [
     }
 ];
 
+// assigns all the necessary variables:
+
 let quizContainer = document.getElementById('quiz-container');
-let questionH2 = document.getElementById('');
+let questionH2 = document.getElementById('question-h2');
+let answerButtons = document.getElementById('answer-buttons');
+let nextQuestion = document.getElementById('next-question');
+let restartButton = document.getElementById('restart');
+let scoreCount = document.getElementById('scores');
+let q = 0;
+let a = 0;
+let correct = 0;
+let totalQuestions = 10;
+let currentQuestion = 0;
+
+function showAnswer(event) {
+    if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
+        correct++;
+        currentQuestion++;
+        quizContainer.style.backgroundColor = 'green';
+        questionH2.innerHTML = 'You got it right!';
+    }
+    else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
+        currentQuestion++;
+        quizBox.style.backgroundColor = "red";
+        questionH2.innerHTML = 'You got this one wrong' + 'The correct answer was: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+    }
+    
+}
