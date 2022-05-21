@@ -142,3 +142,16 @@ function showAnswer(event) {
 
     scoreCount.innerHTML = 'scores: ' + correct ;
 }
+
+    let i;
+        for (i = 0; i < answerButtons.length; i++){
+        answerButtons[i].addEventListener("click", revealAnswer);
+}
+
+    questionH2.innerHTML = questions[q].question;
+    answerButtons[0].innerHTML = questions[a].answers.A
+    answerButtons[1].innerHTML = questions[a].answers.B
+    answerButtons[2].innerHTML = questions[a].answers.C
+    answerButtons[3].innerHTML = questions[a].answers.D
+
+    nextButton.addEventListener('click', nextQuestion);
