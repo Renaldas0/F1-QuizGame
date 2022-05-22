@@ -1,3 +1,5 @@
+// sets the questions and answers array into a variable:
+
 let questions = [
     {
         question:'1. Which team has won the most constructors championships?',
@@ -160,7 +162,7 @@ function showAnswer(event) {
         if (currentQuestion == totalQuestions) {
             alert('Press restart to play again');
         }
-        else if (currentQuestion > q) {
+        else if (currentQuestion < q) {
             q++;
             a++;
             questionH2.innerHTML = questions[q].question;
@@ -177,6 +179,6 @@ function showAnswer(event) {
 
     restartButton.addEventListener('click', restartQuiz);
 
-    function restartQuiz(){
+    function restartQuiz() {
     location.reload();
 }
