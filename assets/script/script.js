@@ -117,6 +117,9 @@ let correct = 0;
 let totalQuestions = 10;
 let currentQuestion = 0;
 
+//score tracker
+    scoreCount.innerHTML = 'scores: ' + correct;
+
 function showAnswer(event) {
     if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
         correct++;
@@ -142,7 +145,6 @@ function showAnswer(event) {
         currentQuestion++;
     }
 
-    scoreCount.innerHTML = 'scores: ' + correct ;
 }
 
     let i;
