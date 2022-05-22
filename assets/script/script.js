@@ -117,8 +117,8 @@ let correct = 0;
 let totalQuestions = 10;
 let currentQuestion = 0;
 
-//score tracker
-    scoreCount.innerHTML = 'scores: ' + correct;
+//score tracking
+scoreCount.innerHTML = 'scores: ' + correct ;
 
 function showAnswer(event) {
     if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
@@ -144,8 +144,11 @@ function showAnswer(event) {
         questionH2.innerHTML = 'You got this one wrong' + 'The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
         currentQuestion++;
     }
-
+    //changes the score after each correct question
+    scoreCount.innerHTML = 'scores: ' + correct ;
 }
+    
+
 
     let i;
         for (i = 0; i < answerButtons.length; i++){
