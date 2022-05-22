@@ -108,7 +108,7 @@ let questions = [
 let quizContainer = document.getElementById('quiz-container');
 let questionH2 = document.getElementById('question-h2');
 let answerButtons = document.getElementById('answer-buttons');
-let nextQuestion = document.getElementById('next-question');
+let nextButton = document.getElementById('next-question');
 let restartButton = document.getElementById('restart');
 let scoreCount = document.getElementById('scores');
 let q = 0;
@@ -167,7 +167,7 @@ function showAnswer(event) {
         if (currentQuestion == totalQuestions) {
             alert('Press restart to play again');
         }
-        else if (currentQuestion < q) {
+        else if (currentQuestion > q) {
             q++;
             a++;
             questionH2.innerHTML = questions[q].question;
