@@ -145,7 +145,7 @@ function showAnswer(event) {
 
     let i;
         for (i = 0; i < answerButtons.length; i++){
-        answerButtons[i].addEventListener("click", revealAnswer);
+        answerButtons[i].addEventListener('click', revealAnswer);
 }
 
     questionH2.innerHTML = questions[q].question;
@@ -155,3 +155,28 @@ function showAnswer(event) {
     answerButtons[3].innerHTML = questions[a].answers.D
 
     nextButton.addEventListener('click', nextQuestion);
+
+    function nextQuestion() {
+        if (currentQuestion == totalQuestions) {
+            alert('Press restart to play again');
+        }
+        else if (currentQuestion > q) {
+            q++;
+            a++;
+            questionH2.innerHTML = questions[q].question;
+            answerButton[0].innerHTML = questions[a].answers.A;
+            answerButton[1].innerHTML = questions[a].answers.B;
+            answerButton[2].innerHTML = questions[a].answers.C;
+            answerButton[3].innerHTML = questions[a].answers.D;
+            quizContainer.style.backgroundColor = 'white';
+        }
+        else {
+            alert('select an answer to continue');
+        }
+    }
+
+    restartButton.addEventListener('click', restartQuiz);
+
+    function restartQuiz(){
+    location.reload();
+}
