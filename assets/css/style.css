@@ -79,14 +79,14 @@ h2 {
     margin: 10px auto;
 }
 
-#answer-buttons {
+#answer-grid {
     height: 200px;
     width: 100%;
     margin: 0 auto;
     text-align: center;
 }
 
-.btn {
+.answer-btn {
     font-size: 145%;
     font-weight: 300;
     width: 40%;
@@ -97,7 +97,7 @@ h2 {
     
 }
 
-.btn:hover {
+.answer-btn:hover {
     border: 2px solid blue;
 }
 

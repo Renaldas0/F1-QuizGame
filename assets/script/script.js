@@ -107,8 +107,8 @@ let questions = [
 
 let quizContainer = document.getElementById('quiz-container');
 let questionH2 = document.getElementById('question-h2');
-let answerButtons = document.getElementById('answer-buttons');
-let nextButton = document.getElementById('next-question');
+let answerButton = document.getElementsByClassName('answer-btn');
+let nextButton = document.getElementById('next');
 let restartButton = document.getElementById('restart');
 let scoreCount = document.getElementById('scores');
 let q = 0;
@@ -149,16 +149,15 @@ function showAnswer(event) {
 }
     
 let i;
-for (i = 0; i < answerButtons.length; i++){
-answerButtons[i].addEventListener('click', revealAnswer);
-        
+for (i = 0; i < answerButton.length; i++){
+    answerButton[i].addEventListener("click", showAnswer);
 }
 
     questionH2.innerHTML = questions[q].question;
-    answerButtons[0].innerHTML = questions[a].answers.A;
-    answerButtons[1].innerHTML = questions[a].answers.B;
-    answerButtons[2].innerHTML = questions[a].answers.C;
-    answerButtons[3].innerHTML = questions[a].answers.D;
+    answerButton[0].innerHTML = questions[a].answers.A;
+    answerButton[1].innerHTML = questions[a].answers.B;
+    answerButton[2].innerHTML = questions[a].answers.C;
+    answerButton[3].innerHTML = questions[a].answers.D;
 
     nextButton.addEventListener('click', nextQuestion);
 
