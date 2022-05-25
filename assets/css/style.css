@@ -56,10 +56,7 @@ h2 {
     border-radius: 10px;
     text-align: center;
     
-}
-
-#start-button:hover {
-    background-color: red;
+   background-color: red;
     color: white;
 }
 
@@ -71,9 +68,10 @@ h2 {
     border-radius: 10px 10px;
 }
 
-#question {
+#questions {
     height: 35%;
     width: 80%;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,24 +98,7 @@ h2 {
 }
 
 .btn:hover {
-    border: 0.5px solid red;
-}
-
-
-/* Submit button code*/
-.btn-submit {
-    font-size: 100%;
-    font-weight: 300;
-    width: 20%;
-    height: 15%;
-    margin-left: 40%;
-    border: 0.5px solid black; 
-    border-radius: 10px;
-    text-align: center;
-}
-
-.btn-submit:hover {
-    border: 2px solid green;
+    border: 2px solid blue;
 }
 
 /* Scoring area and navigation code*/
@@ -133,13 +114,23 @@ h2 {
     
 }
 
-#navigation {
-    text-align: right;
-    margin:2%
+
+
+#next, #restart {
+    display:block;
+    float: right;
+    font-size: 100%;
+    font-weight: 300;
+    width: 10%;
+    height: 15%;
+    border: 0.5px solid black; 
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
 }
 
-.nav-btn {
-    font-size: 80%;
-    width: 10%;
-    height: 20px;
+#next:hover, #restart:hover {
+    border: solid gold 2px;
+    color: black;
 }
