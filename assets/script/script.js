@@ -131,13 +131,14 @@ function showAnswer(event) {
     else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
         currentQuestion++;
         quizContainer.style.backgroundColor = 'red';
-        questionH2.innerHTML = 'You got this one wrong' + 'The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+        questionH2.innerHTML = 'You got this one wrong ' + ' The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
     }
     else if (this.innerHTML == questions[q].correctAnswer && currentQuestion == q){
         quizContainer.style.backgroundColor = 'green';
         questionH2.innerHTML = 'You got it right!';
         correct++;
         scoreCount++;
+        currentQuestion++;
     }
     else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == q){
         quizContainer.style.backgroundColor = 'red';
@@ -145,7 +146,7 @@ function showAnswer(event) {
         currentQuestion++;
     }
     //changes the score after each correct question
-    scoreCount.innerHTML = 'scores: ' + correct ;
+    scoreCount.innerHTML = 'scores: ' + correct;
 }
     
 let i;
@@ -173,7 +174,7 @@ for (i = 0; i < answerButton.length; i++){
             answerButton[1].innerHTML = questions[a].answers.B;
             answerButton[2].innerHTML = questions[a].answers.C;
             answerButton[3].innerHTML = questions[a].answers.D;
-            quizContainer.style.backgroundColor = 'white';
+            quizContainer.style.backgroundColor = 'rgb(180, 180, 180,0.7)';
         }
         else {
             alert('select an answer to continue');
