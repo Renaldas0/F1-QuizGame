@@ -128,23 +128,22 @@ function showAnswer(event) {
         currentQuestion++;
         quizContainer.style.backgroundColor = 'green';
         questionH2.innerHTML = 'You got it right!';
-        scoreCount++;
+        
     }
     else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
         currentQuestion++;
         quizContainer.style.backgroundColor = 'red';
-        questionH2.innerHTML = 'You got this one wrong ' + ' The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+        questionH2.innerHTML = 'You got this one wrong. ' + ' The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
     }
     else if (this.innerHTML == questions[q].correctAnswer && currentQuestion == q){
         quizContainer.style.backgroundColor = 'green';
         questionH2.innerHTML = 'You got it right!';
         correct++;
-        scoreCount++;
         currentQuestion++;
     }
     else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == q){
         quizContainer.style.backgroundColor = 'red';
-        questionH2.innerHTML = 'You got this one wrong' + 'The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+        questionH2.innerHTML = 'You got this one wrong. ' + 'The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
         currentQuestion++;
     }
     //changes the score after each correct question
