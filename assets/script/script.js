@@ -118,7 +118,9 @@ let totalQuestions = 10;
 let currentQuestion = 0;
 
 //score tracking
-scoreCount.innerHTML = 'scores: ' + correct ;
+scoreCount.innerHTML = 'Score: ' + correct;
+
+//Checks if the answer is right or wrong
 
 function showAnswer(event) {
     if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
@@ -146,7 +148,7 @@ function showAnswer(event) {
         currentQuestion++;
     }
     //changes the score after each correct question
-    scoreCount.innerHTML = 'scores: ' + correct;
+    scoreCount.innerHTML = 'Score ' + correct;
 }
     
 let i;
@@ -161,6 +163,8 @@ for (i = 0; i < answerButton.length; i++){
     answerButton[3].innerHTML = questions[a].answers.D;
 
     nextButton.addEventListener('click', nextQuestion);
+
+    // Function targetting the next question.
 
     function nextQuestion() {
         if (currentQuestion == totalQuestions) {
