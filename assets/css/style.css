@@ -132,3 +132,42 @@ h2 {
     border: solid gold 2px;
     color: black;
 }
+
+/* Media Queries*/
+
+@media screen and (max-width:900px) {
+    h2{
+        font-size: 250%;
+    }
+
+    #restart,#next {
+        font-size: 65%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:730px) {
+   
+}
+
+@media screen and (max-width:600px) {
+    .answer-btn{
+        font-size: 100%;
+    }
+
+    h2{
+        font-size: 175%;
+    }
+
+    #restart, #next {
+        display: block;
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:320px) {
+    #restart, #next{
+        width: auto;
+    }
+}

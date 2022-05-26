@@ -147,7 +147,7 @@ function showAnswer(event) {
         currentQuestion++;
     }
     //changes the score after each correct question
-    scoreCount.innerHTML = 'Score ' + correct;
+    scoreCount.innerHTML = 'Score: ' + correct;
 }
     
 let i;
