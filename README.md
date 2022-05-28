@@ -60,10 +60,9 @@ The live link can be found here:
 
 ## Credits
 
-
 ### Content
-- Some inspiration was taken from a youtube tutorial by Web Dev Simplified for the change of background colours.
+- Some inspiration was taken from a youtube tutorial by Web Dev Simplified for the change of background colours link - https://www.youtube.com/c/WebDevSimplified
 - I also referred back to the javaScript essentials lessons for the coding of functions.
 
 ### Media
-- The background image was taken from 
+- The background image was taken from Pexels.com link - https://www.pexels.com/
