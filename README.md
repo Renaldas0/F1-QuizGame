@@ -11,7 +11,6 @@ The answers are shown if answered incorrectly.
 
   - The background behind the quiz is an image based on Formula 1 to match the theme of this quiz and it covers the entire page.
 
-![Front Page]
 
 - **Quiz Page**
   - The quiz page itself is a very similar layout as the opening page
@@ -37,13 +36,13 @@ The answers are shown if answered incorrectly.
 
 ### Validator Testing
 - HTML
-    - No errors were found when passing through the official W3C Validator - 
+    - No errors were found when passing through the official W3C Validator - https://validator.w3.org/nu/?doc=https%3A%2F%2Frenaldas0.github.io%2FF1-QuizGame%2F
 
 - CSS
-    - No errors were found when passing through the official (Jigsaw) Validator - 
+    - No errors were found when passing through the official (Jigsaw) Validator - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frenaldas0.github.io%2FF1-QuizGame%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 - JavaScript
-    - No errors were found when passing through the JSHint Validator - 
+    - No errors were found when passing through the JSHint Validator - https://jshint.com/
 
 ### Unfixed Bugs
 No unfixed bugs
