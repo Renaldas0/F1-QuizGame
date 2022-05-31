@@ -64,6 +64,27 @@ The answers are shown if answered incorrectly.
 
 - JavaScript
     - No errors were found when passing through the JSHint Validator - https://jshint.com/
+     
+- Metrics
+    - There are 3 functions in this file.
+    - Function with the largest signature take 1 arguments, while the median is 0.
+    - Largest function has 16 statements in it, while the median is 11.
+    - The most complex function has a cyclomatic complexity value of 9 while the median is 3.
+
+- There are 13 warnings issued
+    - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
 ### Unfixed Bugs
 No unfixed bugs
