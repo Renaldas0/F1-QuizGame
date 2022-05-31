@@ -25,6 +25,7 @@ The answers are shown if answered incorrectly.
 
 
   - If answered correctly then the background colour of the quiz container changes to green and a text appears to say it is correct.
+  - With every correct answer the score count goes up by 1.
 ![Screenshot (1091)](https://user-images.githubusercontent.com/97538312/170990594-957fb6d7-bbca-42de-a075-aeb466619964.png)
 
 
