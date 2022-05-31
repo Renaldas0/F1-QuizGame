@@ -87,15 +87,15 @@ The answers are shown if answered incorrectly.
 	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
 ### Unfixed Bugs
-No unfixed bugs
+ - There are No unfixed bugs
 
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
-    - In the GitHub repository, navigate to the Settings tab
-    - From the source section drop-down menu, select pages
-    - Then select the main branch 
-    - Once the main branch has been selected, the page will be automatically be refreshed and successfully deployed.
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select pages
+- Then select the main branch 
+- Once the main branch has been selected, the page will be automatically be refreshed and successfully deployed.
 
 
 The live link can be found here: (F1-QuizGame) https://renaldas0.github.io/F1-QuizGame/
