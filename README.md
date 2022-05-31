@@ -3,6 +3,7 @@
 Formula 1 Quiz is made to test the knowledge of Formula 1 enthusiasts of all ages in a quick and simple way with 10 questions.
 The answers are shown if answered incorrectly.
 (Main Quiz Page) - https://renaldas0.github.io/F1-QuizGame/
+![Responsive screenshot f1](https://user-images.githubusercontent.com/97538312/170991174-722a8829-64ed-45da-9460-142a1cefd59a.jpg)
 
 ## **Features**
 
@@ -73,9 +74,6 @@ No unfixed bugs
     - From the source section drop-down menu, select pages
     - Then select the main branch 
     - Once the main branch has been selected, the page will be automatically be refreshed and successfully deployed.
-
-The game is also responsive on all devices 
-![Responsive screenshot f1](https://user-images.githubusercontent.com/97538312/170991174-722a8829-64ed-45da-9460-142a1cefd59a.jpg)
 
 
 The live link can be found here: (F1-QuizGame) https://renaldas0.github.io/F1-QuizGame/
