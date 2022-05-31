@@ -26,11 +26,13 @@ The answers are shown if answered incorrectly.
 
   - If answered correctly then the background colour of the quiz container changes to green and a text appears to say it is correct.
   - With every correct answer the score count goes up by 1.
-![Screenshot (1091)](https://user-images.githubusercontent.com/97538312/170990594-957fb6d7-bbca-42de-a075-aeb466619964.png)
+![Correct answer f1](https://user-images.githubusercontent.com/97538312/171189079-081844f0-533d-4bc9-9a93-39f74bf4a638.jpg)
+
 
 
   - If answered incorrectly then the background colour changes to red and the text reads "You got this one wrong . The correct answer was (correct answer).
-![Screenshot (1092)](https://user-images.githubusercontent.com/97538312/170990606-2ed2bece-3df4-48da-a261-16e43193131a.png)
+![Wrong answer colour f1](https://user-images.githubusercontent.com/97538312/171189096-2b8283f1-6d11-4710-bd4f-cbf0c08c4cd4.jpg)
+
 
 - **Navigation**
 
