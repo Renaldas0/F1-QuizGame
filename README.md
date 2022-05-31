@@ -72,19 +72,19 @@ The answers are shown if answered incorrectly.
     - The most complex function has a cyclomatic complexity value of 9 while the median is 3.
 
 - There are 13 warnings issued
-    - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
-	  - 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	-'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
 ### Unfixed Bugs
 No unfixed bugs
