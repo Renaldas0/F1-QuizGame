@@ -55,6 +55,7 @@ The answers are shown if answered incorrectly.
 - I have confirmed that the quiz is fully functional. The different buttons do what they're supposed to do and trigger their respective functions.
 - I have also checked the lighthouse statistics for the game 
  ![Lighthouse screenshot f1](https://user-images.githubusercontent.com/97538312/170991041-8b061360-e3db-4e61-aac1-6123bd838238.jpg)
+- I also passed the website through responsinator to check the responsiveness on different devices and it looks good.
 
 
 ### Validator Testing
@@ -88,8 +89,12 @@ The answers are shown if answered incorrectly.
 	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 	- 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 
+### Bugs encountered 
+ - Encountered a bug where the answer buttons would move out of alignment if the text inside is longer on smaller width devices.
+ - I fixed this bug by using media quesries and setting the buttons to display underneath one another on devices with a screen width below 440px.
+
 ### Unfixed Bugs
- - There are No unfixed bugs
+ - There are No unfixed bugs.
 
 ## Deployment
 
