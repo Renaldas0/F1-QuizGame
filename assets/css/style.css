@@ -146,7 +146,9 @@ h2 {
         text-align: center;
     }
     body {
+        background-size: contain;
         background-repeat: no-repeat;
+        height: 100vh;
     }
 }
 
