@@ -7,8 +7,8 @@
 body {
     background-color:white;
     background-image: url(../images/f1-image.jpg);
-    height: 100vh;
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -145,11 +145,7 @@ h2 {
         font-size: 65%;
         text-align: center;
     }
-    body {
-        background-size: contain;
-        background-repeat: no-repeat;
-        height: 100vh;
-    }
+    
 }
 
 
