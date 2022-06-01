@@ -111,8 +111,8 @@ let answerButton = document.getElementsByClassName('answer-btn');
 let nextButton = document.getElementById('next');
 let restartButton = document.getElementById('restart');
 let scoreCount = document.getElementById('scores');
-let q = 0;
-let a = 0;
+let ques = 0;
+let ans = 0;
 let correct = 0;
 let totalQuestions = 10;
 let currentQuestion = 0;
@@ -123,27 +123,27 @@ scoreCount.innerHTML = 'Score: ' + correct;
 //Checks if the answer is right or wrong
 
 function showAnswer(event) {
-    if (this.innerHTML === questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
+    if (this.innerHTML === questions[ques].correctAnswer && currentQuestion == (totalQuestions - 1)){
         correct++;
         currentQuestion++;
         quizContainer.style.backgroundColor = 'green';
         questionH2.innerHTML = 'You got it right!';
         
     }
-    else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == (totalQuestions - 1)){
+    else if (this.innerHTML != questions[ques].correctAnswer && currentQuestion == (totalQuestions - 1)){
         currentQuestion++;
         quizContainer.style.backgroundColor = 'red';
-        questionH2.innerHTML = 'You got this one wrong. ' + ' The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+        questionH2.innerHTML = 'You got this one wrong. ' + ' The correct answer is: ' + '<strong>' + questions[ques].correctAnswer + '</strong>';
     }
-    else if (this.innerHTML == questions[q].correctAnswer && currentQuestion == q){
+    else if (this.innerHTML == questions[ques].correctAnswer && currentQuestion == ques){
         quizContainer.style.backgroundColor = 'green';
         questionH2.innerHTML = 'You got it right!';
         correct++;
         currentQuestion++;
     }
-    else if (this.innerHTML != questions[q].correctAnswer && currentQuestion == q){
+    else if (this.innerHTML != questions[ques].correctAnswer && currentQuestion == ques){
         quizContainer.style.backgroundColor = 'red';
-        questionH2.innerHTML = 'You got this one wrong. ' + 'The correct answer is: ' + '<strong>' + questions[q].correctAnswer + '</strong>';
+        questionH2.innerHTML = 'You got this one wrong. ' + 'The correct answer is: ' + '<strong>' + questions[ques].correctAnswer + '</strong>';
         currentQuestion++;
     }
     //changes the score after each correct question
@@ -155,11 +155,11 @@ for (i = 0; i < answerButton.length; i++){
     answerButton[i].addEventListener("click", showAnswer);
 }
 
-    questionH2.innerHTML = questions[q].question;
-    answerButton[0].innerHTML = questions[a].answers.A;
-    answerButton[1].innerHTML = questions[a].answers.B;
-    answerButton[2].innerHTML = questions[a].answers.C;
-    answerButton[3].innerHTML = questions[a].answers.D;
+    questionH2.innerHTML = questions[ques].question;
+    answerButton[0].innerHTML = questions[ans].answers.A;
+    answerButton[1].innerHTML = questions[ans].answers.B;
+    answerButton[2].innerHTML = questions[ans].answers.C;
+    answerButton[3].innerHTML = questions[ans].answers.D;
 
     nextButton.addEventListener('click', nextQuestion);
 
@@ -170,18 +170,18 @@ for (i = 0; i < answerButton.length; i++){
             alert('Press restart to play again');
     
         }
-        else if (currentQuestion > q) {
-            q++;
-            a++;
-            questionH2.innerHTML = questions[q].question;
-            answerButton[0].innerHTML = questions[a].answers.A;
-            answerButton[1].innerHTML = questions[a].answers.B;
-            answerButton[2].innerHTML = questions[a].answers.C;
-            answerButton[3].innerHTML = questions[a].answers.D;
+        else if (currentQuestion > ques) {
+            ques++;
+            ans++;
+            questionH2.innerHTML = questions[ques].question;
+            answerButton[0].innerHTML = questions[ans].answers.A;
+            answerButton[1].innerHTML = questions[ans].answers.B;
+            answerButton[2].innerHTML = questions[ans].answers.C;
+            answerButton[3].innerHTML = questions[ans].answers.D;
             quizContainer.style.backgroundColor = 'rgb(180, 180, 180,0.7)';
         }
         else {
-            alert('select an answer to continue');
+            alert('Select an answer to continue');
         }
     }
 
