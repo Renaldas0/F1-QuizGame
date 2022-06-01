@@ -122,7 +122,9 @@ scoreCount.innerHTML = 'Score: ' + correct;
 
 //Checks if the answer is right or wrong
 
-function showAnswer(event) {
+function showAnswer(event) 
+    // If the answer is correct
+    {
     if (this.innerHTML === questions[ques].correctAnswer && currentQuestion == (totalQuestions - 1)){
         correct++;
         currentQuestion++;
@@ -130,6 +132,7 @@ function showAnswer(event) {
         questionH2.innerHTML = 'You got it right!';
         
     }
+    // if the answer is incorrect
     else if (this.innerHTML != questions[ques].correctAnswer && currentQuestion == (totalQuestions - 1)){
         currentQuestion++;
         quizContainer.style.backgroundColor = 'red';
@@ -184,7 +187,7 @@ for (i = 0; i < answerButton.length; i++){
             alert('Select an answer to continue');
         }
     }
-
+    // function to restart the quiz
     restartButton.addEventListener('click', restartQuiz);
 
     function restartQuiz() {
