@@ -168,6 +168,7 @@ for (i = 0; i < answerButton.length; i++){
     function nextQuestion() {
         if (currentQuestion == totalQuestions) {
             alert('Press restart to play again');
+    
         }
         else if (currentQuestion > q) {
             q++;
