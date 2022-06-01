@@ -141,6 +141,10 @@ h2 {
         font-size: 230%;
     }
 
+    .answer-btn {
+        font-size: 80%;
+    }
+
     #restart,#next {
         font-size: 65%;
         text-align: center;
@@ -151,7 +155,7 @@ h2 {
 
 @media screen and (max-width:600px) {
     .answer-btn{
-        font-size: 100%;
+        font-size: 80%;
     }
 
     h2{
