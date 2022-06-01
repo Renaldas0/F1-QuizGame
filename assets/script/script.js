@@ -118,7 +118,7 @@ let totalQuestions = 10;
 let currentQuestion = 0;
 
 //score tracking
-scoreCount.innerHTML = 'Score: ' + correct;
+scoreCount.innerHTML = 'Score: ' + correct + '/' + totalQuestions;
 
 //Checks if the answer is right or wrong
 
@@ -150,7 +150,7 @@ function showAnswer(event)
         currentQuestion++;
     }
     //changes the score after each correct question
-    scoreCount.innerHTML = 'Score: ' + correct;
+    scoreCount.innerHTML = 'Score: ' + correct + '/' + totalQuestions;
 }
     
 let i;

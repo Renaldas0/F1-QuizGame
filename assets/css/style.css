@@ -7,7 +7,6 @@
 body {
     background-color:white;
     background-image: url(../images/f1-image.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -164,6 +163,35 @@ h2 {
     }
 
     
+}
+/* Media query specifically targetting button misalignment below 440px*/
+@media screen and (max-width:440px) {
+    #quiz-container {
+        height: 700px;
+    }
+
+    #answer-grid{
+        height: 300px;
+    }
+    .answer-btn{
+        margin: 5%;
+        width: 90%;
+        height: 20%;
+        display: block;
+        font-size: 90%;
+    }
+    #navigation {
+        margin-top: 20px;
+        position: relative;
+        bottom: 20px;
+        display: block;
+        
+    }
+
+    .score-area {
+        bottom: 50px;
+        clear: both;
+    }
 }
 
 @media screen and (max-width:320px) {
