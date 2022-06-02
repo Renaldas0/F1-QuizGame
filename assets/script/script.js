@@ -170,7 +170,7 @@ for (i = 0; i < answerButton.length; i++){
 
     function nextQuestion() {
         if (currentQuestion == totalQuestions) {
-            alert('Press restart to play again');
+            alert('Your final score was ' +  correct + '/' + totalQuestions  +'. ' + ' Press restart to play again');
     
         }
         else if (currentQuestion > ques) {
