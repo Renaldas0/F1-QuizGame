@@ -28,7 +28,8 @@ The answers are shown if answered incorrectly.
   - The quiz page itself is a very similar layout as the opening page
   - Consists of a header, Question, 4 answer buttons, a score tracker , next and restart buttons.
   - This quiz has a total of 10 questions and the next will only show if an answer has been selected.
-![quiz-layout](https://user-images.githubusercontent.com/97538312/171841930-7b75e44c-8ea7-43f6-8e90-8274a35fe005.jpg)
+![quiz-page](https://user-images.githubusercontent.com/97538312/171945106-bf8976f9-f846-423d-81d7-751b156a3e9b.jpg)
+
 
 
 
