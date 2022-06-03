@@ -3,7 +3,8 @@
 Formula 1 Quiz is made to test the knowledge of Formula 1 enthusiasts of all ages in a quick and simple way with 10 questions.
 The answers are shown if answered incorrectly.
 (Main Quiz Page) - https://renaldas0.github.io/F1-QuizGame/
-![Responsive screenshot f1](https://user-images.githubusercontent.com/97538312/170991174-722a8829-64ed-45da-9460-142a1cefd59a.jpg)
+![am-i-responsive](https://user-images.githubusercontent.com/97538312/171836625-1c8571cb-9184-4bb7-84dc-7bc1a55dc444.jpg)
+
 
 ## **Features**
 
@@ -11,8 +12,11 @@ The answers are shown if answered incorrectly.
   - The first thing to load up for the user is the introduction page which features a start button and text explaining to press start to begin the quiz.
 
   - The background behind the quiz is an image based on Formula 1 to match the theme of this quiz and it covers the entire page.
+![load-up-page](https://user-images.githubusercontent.com/97538312/171836642-d72a3a59-e34b-4b6d-a9da-dd9c9816965a.jpg)
 
-![Start page f1](https://user-images.githubusercontent.com/97538312/170990519-0e2215a5-ef4e-4514-ac91-af58f6a3bfd4.jpg)
+  - Responsive feature for mobile devices makes the buttons align under each other.
+  ![phone-screenshot](https://user-images.githubusercontent.com/97538312/171836808-0dd9b2fc-ca14-45d6-8253-b8c0ded92d1c.jpg)
+
 
 
 
@@ -20,7 +24,8 @@ The answers are shown if answered incorrectly.
   - The quiz page itself is a very similar layout as the opening page
   - Consists of a header, Question, 4 answer buttons, a score tracker , next and restart buttons.
   - This quiz has a total of 10 questions and the next will only show if an answer has been selected.
-![Quiz screenshot f1](https://user-images.githubusercontent.com/97538312/170990571-f1763d99-92ea-4930-8073-bcaf1ad9a2a7.jpg)
+![quiz-layout](https://user-images.githubusercontent.com/97538312/171836859-3ff20d50-5ec1-4b8f-ae12-a482165dfca8.jpg)
+
 
 
 
@@ -42,7 +47,9 @@ The answers are shown if answered incorrectly.
 ![Select answer alert f1](https://user-images.githubusercontent.com/97538312/170990674-36b591d9-7529-48f9-82e1-378e25943408.jpg)
 
   - Once all 10 questions are answered an alert will show up to inform the user of the next step.
-![Restart alert f1](https://user-images.githubusercontent.com/97538312/170990882-fc18185e-5faf-4462-a2c2-2096ba5cd072.jpg)
+  - The final score is also displayed in the alert message
+![Final-score-alert](https://user-images.githubusercontent.com/97538312/171836708-a7527347-4aef-4985-b6e5-1aca21db83f6.jpg)
+
 
 
   - The restart button will take the user back to the first question of the quiz.
