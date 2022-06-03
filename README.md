@@ -10,6 +10,7 @@ The answers are shown if answered incorrectly.
 
 - **Front Page** 
   - The first thing to load up for the user is the introduction page which features a start button and text explaining to press start to begin the quiz.
+  - Clicking on the header will take the user back to the load up page.
 
   - The background behind the quiz is an image based on Formula 1 to match the theme of this quiz and it covers the entire page.
 ![load-up-page](https://user-images.githubusercontent.com/97538312/171836642-d72a3a59-e34b-4b6d-a9da-dd9c9816965a.jpg)
@@ -122,3 +123,4 @@ The live link can be found here: (F1-QuizGame) https://renaldas0.github.io/F1-Qu
 
 ### Media
 - The background image was taken from Pexels.com link - https://www.pexels.com/
+- Favicon was created in favicon.io - https://favicon.io/favicon-generator/
