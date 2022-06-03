@@ -3,7 +3,8 @@
 Formula 1 Quiz is made to test the knowledge of Formula 1 enthusiasts of all ages in a quick and simple way with 10 questions.
 The answers are shown if answered incorrectly.
 (Main Quiz Page) - https://renaldas0.github.io/F1-QuizGame/
-![am-i-responsive](https://user-images.githubusercontent.com/97538312/171836625-1c8571cb-9184-4bb7-84dc-7bc1a55dc444.jpg)
+![am-i-responsive](https://user-images.githubusercontent.com/97538312/171841847-ad4c5c5a-f836-46a5-a2f9-a3cfbebf4532.jpg)
+
 
 
 ## **Features**
@@ -13,7 +14,8 @@ The answers are shown if answered incorrectly.
   - Clicking on the header will take the user back to the load up page.
 
   - The background behind the quiz is an image based on Formula 1 to match the theme of this quiz and it covers the entire page.
-![load-up-page](https://user-images.githubusercontent.com/97538312/171836642-d72a3a59-e34b-4b6d-a9da-dd9c9816965a.jpg)
+![load-up-page](https://user-images.githubusercontent.com/97538312/171841903-14cac4d4-58e7-4671-a788-a2b929510e8a.jpg)
+
 
   - Responsive feature for mobile devices makes the buttons align under each other.
   ![phone-screenshot](https://user-images.githubusercontent.com/97538312/171836808-0dd9b2fc-ca14-45d6-8253-b8c0ded92d1c.jpg)
@@ -25,7 +27,8 @@ The answers are shown if answered incorrectly.
   - The quiz page itself is a very similar layout as the opening page
   - Consists of a header, Question, 4 answer buttons, a score tracker , next and restart buttons.
   - This quiz has a total of 10 questions and the next will only show if an answer has been selected.
-![quiz-layout](https://user-images.githubusercontent.com/97538312/171836859-3ff20d50-5ec1-4b8f-ae12-a482165dfca8.jpg)
+![quiz-layout](https://user-images.githubusercontent.com/97538312/171841930-7b75e44c-8ea7-43f6-8e90-8274a35fe005.jpg)
+
 
 
 
