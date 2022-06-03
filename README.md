@@ -14,7 +14,8 @@ The answers are shown if answered incorrectly.
   - Clicking on the header will take the user back to the load up page.
 
   - The background behind the quiz is an image based on Formula 1 to match the theme of this quiz and it covers the entire page.
-![load-up-page](https://user-images.githubusercontent.com/97538312/171841903-14cac4d4-58e7-4671-a788-a2b929510e8a.jpg)
+![start-page](https://user-images.githubusercontent.com/97538312/171944919-331e7460-5ddf-4c0b-a3e5-64d259eb88c1.jpg)
+
 
 
   - Responsive feature for mobile devices makes the buttons align under each other.
