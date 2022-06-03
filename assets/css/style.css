@@ -21,7 +21,8 @@ h1 {
 
 a {
     text-decoration: none;
-    color: rgba(214, 0, 0, 0.952);
+    color: rgba(255, 0, 0, 0.952);
+    font-weight: 700;
 }
 
 /* Style for quiz box below header*/
